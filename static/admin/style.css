@@ -1,0 +1,108 @@
+
+element.style {
+    --primary-items-height: 0;
+    --secondary-items-height: 719.125;
+    --primary-font-color: #000000;
+    --secondary-font-color: #000000;
+    --legal-font-color: #000000;
+    --locale-picker-font-color: #000000;
+}
+.mAZF70It--Footer_footer__PxxIj {
+    --primary-font-size: 20;
+}
+
+.mAZF70It--Footer_footer__PxxIj {
+    --container-desktop-padding-top: 40px;
+    --container-desktop-padding-bottom: 32px;
+    --slots-desktop-margin-top: 80px;
+    --primary-font-color: #000;
+    --primary-mobile-font-size: 18;
+    --primary-font-size: var(--primary-mobile-font-size);
+    --secondary-font-color: #000;
+    --secondary-font-size: 14;
+    --legal-font-color: #5d5d5d;
+    --legal-font-size: 14;
+    --locale-picker-font-color: #5d5d5d;
+    --locale-picker-font-size: 14;
+    --dark-purple-font-color: #214;
+    --clover-purple-font-color: #425;
+    line-height: 1.71;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, button, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    border: 0;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    -webkit-transition: none;
+    transition: none;
+    vertical-align: baseline;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+footer {
+    display: block;
+}
+
+#root, body, html {
+    -webkit-overflow-scrolling: touch;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    text-size-adjust: none;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    min-height: 100vh;
+    width: 100%;
+}
+style attribute {
+    --scrollbar-width: 17px;
+}
+
+body {
+    -webkit-font-feature-settings: "liga","kern";
+    font-feature-settings: "liga","kern";
+    background-color: #fff;
+    position: relative;
+}
+
+
+.mAZF70It--NavBarV2_redesign-html-style-override__C9td3 {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 1rem;
+}
+
+:root {
+    --font-modern-h1: 300 4.5rem/1.0555555556 altform,sans-serif;
+    --font-modern-h2: 300 3.5rem/1.1428571429 altform,sans-serif;
+    --font-modern-h3: 300 2.75rem/1.2727272727 altform,sans-serif;
+    --font-modern-h4: 300 2rem/1.25 altform,sans-serif;
+    --font-modern-display-special: 300 10rem/1 altform,sans-serif;
+    --font-modern-display-price: 300 6rem/.8854166667 altform,sans-serif;
+    --font-modern-body-large: 400 1.5rem/1.3333333333 graphik,sans-serif;
+    --font-modern-body-large-medium: 500 1.5rem/1.3333333333 graphik-medium,sans-serif;
+    --font-h1: 300 3rem/1.1666666667 altform,sans-serif;
+    --font-h1-medium: 500 3rem/1.1666666667 altform,sans-serif;
+    --font-h1-bold: 600 3rem/1.1666666667 altform,sans-serif;
+    --font-h2: 300 2.5rem/1.2 altform,sans-serif;
+    --font-h2-medium: 500 2.5rem/1.2 altform,sans-serif;
+    --font-h2-bold: 600 2.5rem/1.2 altform,sans-serif;
+    --font-h3: 400 2rem/1.25 altform,sans-serif;
+    --font-h3-medium: 500 2rem/1.25 altform,sans-serif;
+    --font-h3-bold: 600 2rem/1.25 graphik-semibold,sans-serif;
+    --font-h4: 400 1.5rem/1.3333333333 altform,sans-serif;
+    --font-h4-medium: 500 1.5rem/1.3333333333 altform,sans-serif;
+    --font-h4-bold: 600 1.5rem/1.3333333333 altform,sans-serif;
+    --font-h5: 400 1.125rem/1.3333333333 graphik,sans-serif;
+    --font-h5-medium: 500 1.125rem/1.3333333333 graphik-medium,sans-serif;
+    --font-h5-bold: 600 1.125rem/1.3333333333 graphik-semibold,sans-serif;
+}

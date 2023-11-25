@@ -1,0 +1,93 @@
+{% extends 'plans/base.html' %}  
+{% block content %}
+
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center bg-dark bg-opacity-25  rounded">
+  <h1 class="display-4">Sufintik</h1>
+  <p class="lead">Now the trash Is Fun</p>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+   rel="stylesheet" 
+   integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+  crossorigin="anonymous">
+
+  <div class="btn btn-primary" style="max-width: 9rem; top: 400px; right: 40px; ">
+    
+    <a href="{% url 'join' %}"><button type="button" class="btn btn-lg btn-primary">Get Start</button></a>
+ 
+  </div>
+  
+  <div class="btn btn-success" style="max-width: 17rem; top: 400px; right: 40px; ">
+    
+    <a href="{% url 'form' %}"><button type="button" class="btn btn-lg btn-primary">Contact us</button></a>
+ 
+  </div>
+  <!-- <div class="btn btn-success" style="max-width: 9rem; width: 100px; right: 40px;  ">
+    <a href="{% url 'join' %}"><button type="button" >Contact us</button></a>
+  </div> -->
+  
+
+</div>
+
+<div class="container">
+  <div class="col-lg-6">
+    <p>
+      Whether made in an earth clamp, a ring kiln or a brick oven the basic principle 
+      remained the same, a carefully controlled slow burn of a large amount of covered wood. It took years for a charcoal maker to gain a high skill level and even an experienced man
+       could still lose his work if caught out by sudden bad weather or a clamp collapse.
+    </p>
+    <img clas="rounded" width="250" height="250" src="https://assets.website-files.com/626fbe0cc544061e18f3f11f/627103689e385ae0ccc85ed5_29745022_1207807266021852_7955205591377937167_o.jpeg" class="img-responsive">
+
+</div class="col-lg-8">
+
+  <div>
+    <p> 
+      Biochar addition has been shown to increase the growth of tree seedlings and enhance the colonization
+      of seedlings by some ectomycorrhizal fungi (Robertson et al. 2012, Ortas, 2016, Grau-Andrés et al.
+      2021). This supports the idea that incorporation of biochar into nursery soil for seed germination and
+      seedling growth prior to outplanting may be an appropriate method for introducing biochar into forests. 
+    </p>
+<img  class="rounded" width="250" height="250" src="https://assets.website-files.com/626fbe0cc544061e18f3f11f/62710375570d2416601ffbaf_1-er-about.jpg" class="img-responsive">
+  </div>
+  <!-- <h3>Trending Articles</h3> -->
+  <ul>
+    {% for plan in plans.all %}
+<li>hola</li>
+    <li><a href="{% url 'plan' plan.id %}">{{ plan.title }}</a></li>
+
+    {% endfor %}
+  </ul>
+</div>
+ 
+<div class="footer-dark">
+  <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-6 col-md-3 item">
+                  <h3>About</h3>
+                  <ul>
+                      <li><a href="#">Terms</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Accessibility</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-6 col-md-3 item">
+                  <h3> Services</h3>
+                  <ul>
+                      <li><a href="#">Carbon</a></li>
+                      <li><a href="#">Agriculture</a></li>
+                      <li><a href="#">Shop store</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-6 item text">
+                  <h3>Company Sufintek</h3>
+                  <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+              </div>
+              <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+          </div>
+          <p class="copyright">Sufintek © 2023</p>
+      </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</div>
+
+{% endblock %}
